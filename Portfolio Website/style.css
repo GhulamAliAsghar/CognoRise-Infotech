@@ -1,0 +1,77 @@
+.dp {
+    margin-left: 280px;
+}
+
+.con-btn {
+    background-color: #D3E97A;
+}
+
+i {
+    color: #D3E97A;
+}
+
+.project-img-bg {
+    background-color: #1A1A1A;
+    width: 500px;
+    height: 400px;
+    padding: 100px;
+}
+
+.link {
+    color: #D3E97A;
+}
+
+.skills {
+    width: 75px;
+}
+
+.com-name {
+    color: #D3E97A;
+}
+
+.resume {
+    color: #D3E97A;
+}
+
+input {
+    background-color: #1A1A1A;
+    height: 40px;
+    width: 500px;
+    color: white;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+textarea {
+    background-color: #1A1A1A;
+    height: 100px;
+    width: 500px;
+}
+
+textarea :focus{
+    outline: none;
+}
+
+.form-submit {
+    background-color: #D3E97A;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.bi-linkedin{
+    height: 100px;
+}
+
+@media(max-width:576px){
+    .dp{
+        margin-left: 120px;
+    }
+    .project-img{
+        margin-right: 100px;
+    }
+}

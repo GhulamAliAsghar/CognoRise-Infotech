@@ -1,0 +1,98 @@
+/* General reset for body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #121212; /* Dark background for a sleek look */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #f5f5f5; /* Light text color for contrast */
+}
+
+/* Container for the countdown timer */
+.container {
+    background: #1e1e1e; /* Dark gray background for the container */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #f1c40f; /* Gold color for heading */
+    font-weight: 600;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Input field for the datetime */
+#target-date {
+    margin: 20px 0;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #333; /* Darker border for input field */
+    border-radius: 8px;
+    background-color: #333; /* Dark background for input */
+    color: #f5f5f5; /* Light text color */
+    font-size: 16px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Button styles */
+button {
+    background-color: #f1c40f; /* Gold color for the button */
+    color: #000; /* Dark text color */
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #d4ac0d; /* Slightly darker gold on hover */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Timer display */
+.timer-display {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #f5f5f5; /* Light text color */
+}
+
+.timer-display div {
+    background-color: #333; /* Dark background for timer boxes */
+    padding: 5px;
+    border-radius: 8px;
+    min-width: 80px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.timer-display div span {
+    font-size: 32px;
+    display: block;
+    margin-bottom: 5px;
+    color: #f1c40f; /* Gold color for numbers */
+}
+
+/* Styling for the message (completed or error) */
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #e74c3c; /* Red color for message to stand out */
+}
